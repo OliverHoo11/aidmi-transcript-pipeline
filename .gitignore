@@ -37,8 +37,6 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Output files
-output_*.json
 
 # Logs
 *.log
