@@ -1,1 +1,0 @@
-# aidmi-take-home-test-transcript-pipeline
