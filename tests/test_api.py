@@ -2,7 +2,9 @@
 API Client test script
 Tests the FastAPI endpoint
 """
-
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 import requests
 import json
 from pathlib import Path
@@ -15,7 +17,7 @@ def test_api():
     base_url = "http://localhost:8000"
     
     # Load sample transcript
-    with open('sample_transcript.json', 'r') as f:
+    with open('data/sample_transcript.json', 'r') as f:
         transcript_data = json.load(f)
     
     print(f"Testing API at {base_url}")

@@ -16,8 +16,8 @@ import uvicorn
 from typing import List, Dict, Optional
 import logging
 
-from models import TranscriptInput, SOAPNoteOutput, NoteSpan
-from pipeline import TranscriptProcessor
+from app.models import TranscriptInput, SOAPNoteOutput
+from app.pipeline import TranscriptProcessor
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

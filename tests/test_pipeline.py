@@ -1,7 +1,9 @@
 """
 Test script to run the pipeline with sample transcript
 """
-
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 import asyncio
 import json
 import sys
@@ -15,15 +17,15 @@ load_dotenv()
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from models import TranscriptInput
-from pipeline import TranscriptProcessor
+from app.models import TranscriptInput
+from app.pipeline import TranscriptProcessor
 
 
 async def test_pipeline():
     """Test the pipeline with sample transcript"""
     
     # Load sample transcript
-    with open('sample_transcript.json', 'r') as f:
+    with open('data/sample_transcript.json', 'r') as f:
         transcript_data = json.load(f)
     
     # Parse into Pydantic model

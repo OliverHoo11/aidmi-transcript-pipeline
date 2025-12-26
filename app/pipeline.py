@@ -12,8 +12,8 @@ from openai import AsyncOpenAI
 import asyncio
 from sklearn.metrics.pairwise import cosine_similarity
 
-from models import TranscriptInput, SOAPNoteOutput, NoteSpan, TranscriptSegment, Citation
-from utils import retry_with_backoff, validate_segment_ids, TokenCounter
+from app.models import TranscriptInput, SOAPNoteOutput, NoteSpan, TranscriptSegment, Citation
+from app.utils import retry_with_backoff, validate_segment_ids, TokenCounter
 
 logger = logging.getLogger(__name__)
 
@@ -266,6 +266,9 @@ Return ONLY a valid JSON object with this structure:
         statement_texts = [s['text'] for s in statements]
         statement_embeddings = await self._embed_texts(statement_texts)
         
+        # GLOBAL citation counter - continues across all spans
+        global_citation_num = 1
+        
         # For each statement, find similar segments
         for idx, (statement, stmt_embedding) in enumerate(zip(statements, statement_embeddings)):
             # Calculate cosine similarity between statement and all segments
@@ -282,19 +285,18 @@ Return ONLY a valid JSON object with this structure:
             # Filter by threshold and collect citations
             citation_list = []
             max_score = 0.0
-            citation_num = 1
             
             for seg_idx, score in zip(top_indices, top_scores):
                 if score >= self.citation_threshold:
                     segment = segments[seg_idx]
                     citation_list.append({
                         'id': segment.id,
-                        'num': citation_num,
+                        'num': global_citation_num,  # Use global counter
                         'transcript': segment.text,
                         'score': float(score)
                     })
                     max_score = max(max_score, score)
-                    citation_num += 1
+                    global_citation_num += 1  # Increment global counter
             
             # Determine if needs confirmation
             needs_confirmation = len(citation_list) == 0 or max_score < self.citation_threshold

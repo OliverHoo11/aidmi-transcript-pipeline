@@ -1,7 +1,9 @@
 """
 Diagnostic script to check why citations are so low
 """
-
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 import asyncio
 import json
 import os
@@ -11,8 +13,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 load_dotenv()
 
-from models import TranscriptInput
-from pipeline import TranscriptProcessor
+from app.models import TranscriptInput
+from app.pipeline import TranscriptProcessor
 
 async def diagnose():
     print("=" * 80)
@@ -20,7 +22,7 @@ async def diagnose():
     print("=" * 80)
     
     # Load transcript
-    with open('sample_transcript.json', 'r') as f:
+    with open('data/sample_transcript.json', 'r') as f:
         transcript_data = json.load(f)
     
     transcript = TranscriptInput(**transcript_data)

@@ -1,7 +1,9 @@
 """
 Comprehensive demo script showing pipeline in action with detailed logging
 """
-
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 import asyncio
 import json
 import sys
@@ -15,8 +17,8 @@ load_dotenv()
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from models import TranscriptInput
-from pipeline import TranscriptProcessor
+from app.models import TranscriptInput
+from app.pipeline import TranscriptProcessor
 
 
 class Colors:
@@ -63,7 +65,7 @@ async def run_demo():
     print_section("1. Loading Sample Transcript")
     
     try:
-        with open('sample_transcript.json', 'r') as f:
+        with open('data/sample_transcript.json', 'r') as f:
             transcript_data = json.load(f)
         
         transcript = TranscriptInput(**transcript_data)

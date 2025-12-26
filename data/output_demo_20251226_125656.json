@@ -1,0 +1,221 @@
+{
+  "session_id": "sess_demo_001",
+  "note_spans": [
+    {
+      "id": "span_001",
+      "section": "subjective",
+      "text": "Sarah reports that the past two weeks have been challenging[1], with worsening insomnia, now averaging three to four hours of sleep per night.",
+      "citations": [
+        {
+          "id": "seg_002",
+          "num": 1,
+          "transcript": "Hi. Honestly, it's been a really tough couple of weeks. The insomnia has gotten worse. I'm maybe getting three or four hours a night now, and I feel exhausted all the time."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.6414613523675726
+    },
+    {
+      "id": "span_002",
+      "section": "subjective",
+      "text": "She feels exhausted[2] and has been experiencing increased irritability[3], particularly with her husband and daughter, Emma.",
+      "citations": [
+        {
+          "id": "seg_008",
+          "num": 2,
+          "transcript": "My mood has definitely been lower. I've been feeling more irritable with my husband and with Emma, which I hate. I snapped at Emma yesterday for something small and then felt terrible about it. I've also noticed I don't really enjoy things the way I used to. Even reading, which I love, feels like a chore."
+        },
+        {
+          "id": "seg_006",
+          "num": 3,
+          "transcript": "Complicated. We've always had a difficult dynamic. She's very critical, especially about how I'm raising Emma. Last week she told me I'm too permissive and that's why Emma has tantrums. I know she's probably wrong, but it still hurts. I ended up crying in the bathroom after she left the room."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.672611669303772
+    },
+    {
+      "id": "span_003",
+      "section": "subjective",
+      "text": "Sarah describes her relationship with her mother as complicated[4] and feels hurt by her mother's critical comments about her parenting, leading to feelings of sadness and frustration.",
+      "citations": [
+        {
+          "id": "seg_006",
+          "num": 4,
+          "transcript": "Complicated. We've always had a difficult dynamic. She's very critical, especially about how I'm raising Emma. Last week she told me I'm too permissive and that's why Emma has tantrums. I know she's probably wrong, but it still hurts. I ended up crying in the bathroom after she left the room."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5244658369524426
+    },
+    {
+      "id": "span_004",
+      "section": "objective",
+      "text": "Sarah appeared fatigued and expressed her feelings with a low affect.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_005",
+      "section": "objective",
+      "text": "She demonstrated insight into her emotional state[5], acknowledging her irritability and the impact of her mother's criticism.",
+      "citations": [
+        {
+          "id": "seg_007",
+          "num": 5,
+          "transcript": "It sounds like her criticism really affects you deeply, even when you intellectually know it may not be accurate. How has this been impacting your mood overall?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5246994653268863
+    },
+    {
+      "id": "span_006",
+      "section": "objective",
+      "text": "There were signs of distress when discussing her relationship with her mother[6], and she exhibited a willingness to engage in therapeutic techniques[7], although she expressed frustration with previous attempts at breathing exercises.",
+      "citations": [
+        {
+          "id": "seg_005",
+          "num": 6,
+          "transcript": "That sounds like a significant stressor. How is your relationship with your mother typically?"
+        },
+        {
+          "id": "seg_019",
+          "num": 7,
+          "transcript": "That rumination pattern is really common, especially when we're stressed. Let's work on a strategy for that. Have you tried the breathing exercises we discussed last time? The 4-7-8 technique?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.536708158804051
+    },
+    {
+      "id": "span_007",
+      "section": "assessment",
+      "text": "Sarah is experiencing symptoms consistent with an adjustment disorder[8], characterized by anxiety[9] and depressive features, likely exacerbated by her mother's visit and ongoing parenting stress.",
+      "citations": [
+        {
+          "id": "seg_004",
+          "num": 8,
+          "transcript": "It started about a week after our last session. My mom came to stay with us, and things have been really tense. She keeps making comments about my parenting, and I just lie awake at night replaying those conversations."
+        },
+        {
+          "id": "seg_005",
+          "num": 9,
+          "transcript": "That sounds like a significant stressor. How is your relationship with your mother typically?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5394793613181955
+    },
+    {
+      "id": "span_008",
+      "section": "assessment",
+      "text": "The worsening insomnia[10], irritability[11], and anhedonia suggest a decline in her overall mental health status.",
+      "citations": [
+        {
+          "id": "seg_009",
+          "num": 10,
+          "transcript": "You're describing anhedonia - that loss of pleasure in activities you normally enjoy. Combined with the sleep issues and irritability, I want to check in on something. Have you had any thoughts of hurting yourself or not wanting to be here?"
+        },
+        {
+          "id": "seg_002",
+          "num": 11,
+          "transcript": "Hi. Honestly, it's been a really tough couple of weeks. The insomnia has gotten worse. I'm maybe getting three or four hours a night now, and I feel exhausted all the time."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5798674027284652
+    },
+    {
+      "id": "span_009",
+      "section": "assessment",
+      "text": "She shows awareness of her challenges and a desire to improve, indicating potential for progress with targeted interventions.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_010",
+      "section": "plan",
+      "text": "Continue with the current sertraline dosage[12] and discuss potential adjustments with Dr.[13]",
+      "citations": [
+        {
+          "id": "seg_013",
+          "num": 12,
+          "transcript": "It's good that you're consistent with the medication. Regarding the dose, that's something to discuss with Dr. Martinez. I can include a note about your symptoms in my summary for her. How is the medication sitting with you otherwise? Any side effects?"
+        },
+        {
+          "id": "seg_011",
+          "num": 13,
+          "transcript": "I'm glad to hear that, and it's clear Emma is a strong protective factor for you. Are you still taking the sertraline as prescribed?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5727423438194614
+    },
+    {
+      "id": "span_011",
+      "section": "plan",
+      "text": "Martinez.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_012",
+      "section": "plan",
+      "text": "Implement a wind-down routine that includes no phone use after 10 PM[14], breathing exercises, and light reading.",
+      "citations": [
+        {
+          "id": "seg_025",
+          "num": 14,
+          "transcript": "Exactly. Let's also set up a simple wind-down routine - no phone after 10 PM, the breathing exercise, and maybe some light reading instead of screen time. We'll check in on how all of this is going in our next session. Your homework this week is the 9 PM conversation boundary and the phone-free wind-down routine. How are you feeling about that?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.7406853456776088
+    },
+    {
+      "id": "span_013",
+      "section": "plan",
+      "text": "Set a boundary with her mother to end conversations by 9 PM.[15]",
+      "citations": [
+        {
+          "id": "seg_023",
+          "num": 15,
+          "transcript": "Setting boundaries with family members who trigger guilt is one of the hardest things to do. It's a skill that takes practice. For this week, I'd like you to try one small boundary - maybe ending conversations by 9 PM. We can role-play how to phrase that before you leave today."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.576992530873456
+    },
+    {
+      "id": "span_014",
+      "section": "plan",
+      "text": "Sarah will practice these strategies[16] and report back on her progress in the next session.",
+      "citations": [
+        {
+          "id": "seg_001",
+          "num": 16,
+          "transcript": "Good afternoon, Sarah. It's good to see you again. How have you been doing since our last session two weeks ago?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5125046231465994
+    }
+  ],
+  "metadata": {
+    "total_segments": 27,
+    "total_statements": 14,
+    "model_used": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "citation_threshold": 0.5,
+    "token_usage": {
+      "prompt_tokens": 1610,
+      "completion_tokens": 305,
+      "embedding_tokens": 1582,
+      "total_tokens": 3497
+    }
+  }
+}

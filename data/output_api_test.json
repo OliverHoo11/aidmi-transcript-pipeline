@@ -1,0 +1,250 @@
+{
+  "session_id": "sess_demo_001",
+  "note_spans": [
+    {
+      "id": "span_001",
+      "section": "subjective",
+      "text": "Sarah reports that the past two weeks have been particularly challenging[1], with insomnia worsening to only three to four hours of sleep per night.",
+      "citations": [
+        {
+          "id": "seg_002",
+          "num": 1,
+          "transcript": "Hi. Honestly, it's been a really tough couple of weeks. The insomnia has gotten worse. I'm maybe getting three or four hours a night now, and I feel exhausted all the time."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.6482566670420817
+    },
+    {
+      "id": "span_002",
+      "section": "subjective",
+      "text": "She feels exhausted[2] and is experiencing increased irritability[3], particularly towards her husband and daughter, Emma.",
+      "citations": [
+        {
+          "id": "seg_008",
+          "num": 2,
+          "transcript": "My mood has definitely been lower. I've been feeling more irritable with my husband and with Emma, which I hate. I snapped at Emma yesterday for something small and then felt terrible about it. I've also noticed I don't really enjoy things the way I used to. Even reading, which I love, feels like a chore."
+        },
+        {
+          "id": "seg_006",
+          "num": 3,
+          "transcript": "Complicated. We've always had a difficult dynamic. She's very critical, especially about how I'm raising Emma. Last week she told me I'm too permissive and that's why Emma has tantrums. I know she's probably wrong, but it still hurts. I ended up crying in the bathroom after she left the room."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.6516419769608882
+    },
+    {
+      "id": "span_003",
+      "section": "subjective",
+      "text": "Sarah describes feeling lower in mood[4] and has noticed a loss of enjoyment in activities she once loved, such as reading.",
+      "citations": [
+        {
+          "id": "seg_008",
+          "num": 4,
+          "transcript": "My mood has definitely been lower. I've been feeling more irritable with my husband and with Emma, which I hate. I snapped at Emma yesterday for something small and then felt terrible about it. I've also noticed I don't really enjoy things the way I used to. Even reading, which I love, feels like a chore."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.6387954111794059
+    },
+    {
+      "id": "span_004",
+      "section": "subjective",
+      "text": "She expresses concern about her mother's critical comments regarding her parenting[5], which she acknowledges affect her deeply[6], despite knowing they may not be accurate.[7]",
+      "citations": [
+        {
+          "id": "seg_007",
+          "num": 5,
+          "transcript": "It sounds like her criticism really affects you deeply, even when you intellectually know it may not be accurate. How has this been impacting your mood overall?"
+        },
+        {
+          "id": "seg_004",
+          "num": 6,
+          "transcript": "It started about a week after our last session. My mom came to stay with us, and things have been really tense. She keeps making comments about my parenting, and I just lie awake at night replaying those conversations."
+        },
+        {
+          "id": "seg_006",
+          "num": 7,
+          "transcript": "Complicated. We've always had a difficult dynamic. She's very critical, especially about how I'm raising Emma. Last week she told me I'm too permissive and that's why Emma has tantrums. I know she's probably wrong, but it still hurts. I ended up crying in the bathroom after she left the room."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5456639357304496
+    },
+    {
+      "id": "span_005",
+      "section": "objective",
+      "text": "Sarah appears fatigued and is tearful when discussing her relationship with her mother.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_006",
+      "section": "objective",
+      "text": "Her affect is low[8], and she exhibits signs of irritability when mentioning interactions with her family.",
+      "citations": [
+        {
+          "id": "seg_008",
+          "num": 8,
+          "transcript": "My mood has definitely been lower. I've been feeling more irritable with my husband and with Emma, which I hate. I snapped at Emma yesterday for something small and then felt terrible about it. I've also noticed I don't really enjoy things the way I used to. Even reading, which I love, feels like a chore."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5447352890055328
+    },
+    {
+      "id": "span_007",
+      "section": "objective",
+      "text": "She demonstrates insight into her feelings of anhedonia and acknowledges the impact of her mother's presence on her mental state.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_008",
+      "section": "objective",
+      "text": "Sarah is compliant with her medication regimen[9] but expresses a desire to discuss a potential increase in dosage.",
+      "citations": [
+        {
+          "id": "seg_013",
+          "num": 9,
+          "transcript": "It's good that you're consistent with the medication. Regarding the dose, that's something to discuss with Dr. Martinez. I can include a note about your symptoms in my summary for her. How is the medication sitting with you otherwise? Any side effects?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5439729407576476
+    },
+    {
+      "id": "span_009",
+      "section": "assessment",
+      "text": "Sarah is experiencing symptoms consistent with increased anxiety[10] and depressive features, including insomnia, irritability, and anhedonia.",
+      "citations": [
+        {
+          "id": "seg_009",
+          "num": 10,
+          "transcript": "You're describing anhedonia - that loss of pleasure in activities you normally enjoy. Combined with the sleep issues and irritability, I want to check in on something. Have you had any thoughts of hurting yourself or not wanting to be here?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5045590712257411
+    },
+    {
+      "id": "span_010",
+      "section": "assessment",
+      "text": "The stressor of her mother's visit appears to exacerbate her symptoms[11], indicating a need for improved coping strategies[12] and boundary-setting.",
+      "citations": [
+        {
+          "id": "seg_005",
+          "num": 11,
+          "transcript": "That sounds like a significant stressor. How is your relationship with your mother typically?"
+        },
+        {
+          "id": "seg_022",
+          "num": 12,
+          "transcript": "Okay, that sounds good. I know I need to set boundaries with her. It's just so hard. Every time I try, she makes me feel guilty, like I'm being a bad daughter."
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5864196306931526
+    },
+    {
+      "id": "span_011",
+      "section": "assessment",
+      "text": "While she denies suicidal ideation, her desire to escape suggests underlying distress.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_012",
+      "section": "assessment",
+      "text": "Overall, her progress is hindered by familial dynamics and sleep hygiene issues.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_013",
+      "section": "plan",
+      "text": "Continue with the current medication regimen[13] and discuss potential dosage adjustments with Dr.",
+      "citations": [
+        {
+          "id": "seg_013",
+          "num": 13,
+          "transcript": "It's good that you're consistent with the medication. Regarding the dose, that's something to discuss with Dr. Martinez. I can include a note about your symptoms in my summary for her. How is the medication sitting with you otherwise? Any side effects?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.6087623758929549
+    },
+    {
+      "id": "span_014",
+      "section": "plan",
+      "text": "Martinez.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    },
+    {
+      "id": "span_015",
+      "section": "plan",
+      "text": "Implement a structured wind-down routine that includes no phone use after 10 PM[14], breathing exercises, and light reading.",
+      "citations": [
+        {
+          "id": "seg_025",
+          "num": 14,
+          "transcript": "Exactly. Let's also set up a simple wind-down routine - no phone after 10 PM, the breathing exercise, and maybe some light reading instead of screen time. We'll check in on how all of this is going in our next session. Your homework this week is the 9 PM conversation boundary and the phone-free wind-down routine. How are you feeling about that?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.7368527081253697
+    },
+    {
+      "id": "span_016",
+      "section": "plan",
+      "text": "Encourage Sarah to practice setting a boundary with her mother by ending conversations by 9 PM. [15][16][17]",
+      "citations": [
+        {
+          "id": "seg_023",
+          "num": 15,
+          "transcript": "Setting boundaries with family members who trigger guilt is one of the hardest things to do. It's a skill that takes practice. For this week, I'd like you to try one small boundary - maybe ending conversations by 9 PM. We can role-play how to phrase that before you leave today."
+        },
+        {
+          "id": "seg_025",
+          "num": 16,
+          "transcript": "Exactly. Let's also set up a simple wind-down routine - no phone after 10 PM, the breathing exercise, and maybe some light reading instead of screen time. We'll check in on how all of this is going in our next session. Your homework this week is the 9 PM conversation boundary and the phone-free wind-down routine. How are you feeling about that?"
+        },
+        {
+          "id": "seg_021",
+          "num": 17,
+          "transcript": "There's no wrong way to do it - the goal is just to slow your nervous system down. Let's practice it together right now, and I'll guide you through it. We can also talk about setting some boundaries with your mother around evening conversations. How does that sound?"
+        }
+      ],
+      "needs_confirmation": false,
+      "confidence_score": 0.5871253608428346
+    },
+    {
+      "id": "span_017",
+      "section": "plan",
+      "text": "Follow up on these strategies in the next session to assess progress and make any necessary adjustments.",
+      "citations": [],
+      "needs_confirmation": true,
+      "confidence_score": 0.0
+    }
+  ],
+  "metadata": {
+    "total_segments": 27,
+    "total_statements": 17,
+    "model_used": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "citation_threshold": 0.5,
+    "token_usage": {
+      "prompt_tokens": 1610,
+      "completion_tokens": 348,
+      "embedding_tokens": 1626,
+      "total_tokens": 3584
+    }
+  }
+}
